@@ -2,13 +2,6 @@ package com.pdf.common;
 
 import org.apache.pdfbox.rendering.ImageType;
 
-/**
- * 
- * @author Vinod Patel
- * 
- *         Class contains the constant declarations, used in the PDF Processor
- *
- */
 public class PDFProcessorConstant {
 
 	public final static String PDF_FORMAT = "PDF";

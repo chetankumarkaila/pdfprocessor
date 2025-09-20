@@ -9,12 +9,7 @@ import com.pdf.common.PDFProcessorConstant.PDFProcessorMessageEnum;
 import com.pdf.response.PDFProcessorResponse;
 import com.pdf.response.Page;
 
-/**
- * Utility class for the image generation from the PDF file.
- * 
- * @author Vinod Patel
- *
- */
+
 public class PDFProcessorUtils {
 
 	public static int convertStringToInt(String isOnlyImage) {

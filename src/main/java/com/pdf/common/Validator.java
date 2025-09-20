@@ -1,11 +1,6 @@
 package com.pdf.common;
 
-/**
- * Validator for the PDF request.
- * 
- * @author Vinod Patel
- *
- */
+
 public class Validator {
 
 	/**
