@@ -2,8 +2,6 @@ package com.pdf.common;
 
 import java.util.List;
 
-import org.apache.pdfbox.rendering.ImageType;
-
 import com.pdf.common.PDFProcessorConstant.ImageTypeEnum;
 import com.pdf.common.PDFProcessorConstant.PDFProcessorMessageEnum;
 import com.pdf.response.PDFProcessorResponse;

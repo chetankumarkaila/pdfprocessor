@@ -29,12 +29,7 @@ import com.pdf.response.PDFProcessorResponse;
 import com.pdf.response.Page;
 import com.pdf.service.PDFBoxService;;
 
-/**
- * Controller class to handle the PDF request.
- * 
- * @author Vinod Patel
- *
- */
+
 @RestController
 public class PDFProcessorController {
 

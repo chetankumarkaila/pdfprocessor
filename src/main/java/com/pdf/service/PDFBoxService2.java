@@ -21,7 +21,6 @@ import org.apache.pdfbox.text.PDFTextStripper;
 import org.apache.pdfbox.text.TextPosition;
 import org.springframework.web.multipart.MultipartFile;
 
-import com.pdf.common.PDFProcessorUtils;
 import com.pdf.response.Coordinate;
 import com.pdf.response.Page;
 

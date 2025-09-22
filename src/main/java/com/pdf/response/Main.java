@@ -1,9 +1,7 @@
 package com.pdf.response;
 
-import java.awt.image.BufferedImage;
 import java.io.BufferedOutputStream;
 import java.io.BufferedReader;
-import java.io.ByteArrayInputStream;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
@@ -14,8 +12,6 @@ import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-
-import javax.imageio.ImageIO;
 
 import org.apache.commons.codec.binary.Base64;
 import org.apache.http.HttpEntity;
@@ -29,7 +25,7 @@ import org.apache.tomcat.util.json.JSONParser;
 
 public class Main {
 
-	static String destinationDir = "C:\\Users\\Vinod Patel\\Desktop\\Downloads\\";
+	static String destinationDir = "/Users/user/Downloads";
 
 	public static void main(String[] args)  {
 		try {
@@ -39,7 +35,7 @@ public class Main {
 			builder.addTextBody("field1", "yes", ContentType.MULTIPART_FORM_DATA);
 
 			// This attaches the file to the POST:
-			File f = new File("C:\\Users\\Vinod Patel\\Desktop\\Downloads\\Gaggia Accademia RI9702_1.pdf");
+			File f = new File("/Users/user/Downloads/Gaggia Accademia RI9702_1.pdf");
 			builder.addBinaryBody(
 					"file",
 					new FileInputStream(f),
